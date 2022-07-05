@@ -1,0 +1,14 @@
+Rsync:
+  entry:
+    /home/yen/Workspace/file-baker:external_drive/
+
+Rclone:
+  OneDrive:
+    - drive_1:
+      entry:
+        local:remote
+
+Proxy:
+  Type: socks5
+  Address: ip
+  Port: 1234
